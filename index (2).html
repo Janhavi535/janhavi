@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Demonstration</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .internal-style {
+            color: white;
+            background-color: teal;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #internal-heading {
+            color: darkblue;
+        }
+    </style>
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1 id="internal-heading">CSS Demonstration Page</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: red; font-weight: bold;">
+        This paragraph uses Inline CSS.
+    </p>
+
+    <!-- Internal CSS -->
+    <div class="internal-style">
+        This section uses Internal CSS (inside &lt;style&gt; tag).
+    </div>
+
+    <!-- External CSS -->
+    <div class="external-style">
+        This section uses External CSS (from style.css file).
+    </div>
+
+</body>
+</html>
